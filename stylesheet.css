@@ -1,0 +1,139 @@
+html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: inherit;
+}
+
+            
+#container {
+    margin:auto;
+    max-width:1250px;
+}
+            
+#header {
+    display: grid;
+    position: fixed;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1250px;
+    width: 100%;
+    color: black;
+    height: 50px;
+    overflow: auto;
+    outline: 1px solid black;
+    
+    
+}
+
+#me {
+    text-align: top;
+    padding-left: 100px;
+}
+
+#contact {
+    text-align: end;
+    padding-right: 20px;
+}
+
+#header a {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+            
+#about {
+    background-color: white;
+    height: 650px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#about img {
+    height: 300px;
+}
+            
+#photog {
+    max-width: 1250px;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 1000px;
+    text-align: center;
+}
+
+#container2 {
+    margin:auto;
+    max-width:1250px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#design {
+    grid-column: 1/4;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 700px;
+    padding: 20px;
+    text-align: center;
+}
+
+#albums {
+    grid-column: 1/4;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    height 200px;
+    padding 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#albums img {
+    height: 300px;
+    padding: 20px;
+}
+
+#footer {
+    grid-column: 1/4;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+#photog h2 {
+    grid-column: 2/3;
+}
+
+#container2 h2 {
+    grid-column: 2/3;
+}
+
+
+.wide {
+    padding-right:50px;
+    height:250px;
+    width:375px;
+}
+
+
+
+h2 {
+    font-family: serif;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.panels {
+    height: 500px;
+}
+
+.photogs {
+    height: 350px;
+    width: 250px;
+}
