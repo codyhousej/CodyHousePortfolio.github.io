@@ -36,6 +36,7 @@ html, body {
 }
 
 #header a {
+    color: black;
     padding-top: 10px;
     padding-left: 30px;
     font-size: 25px;
